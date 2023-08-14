@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Wikipédia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+
+    <div class="wrapper">
+      <header>
+        <img
+          id="logo"
+          alt="Bem vindo a nova wikipédia"
+          src="bemvindo.png"
+          width="100%"
+        />
+      </header>
+
+      <content>
+        <nav class="sidebar">
+          <h2>Programação</h2>
+          <ul>
+            <li><a href="wiki.html">HTML</a></li>
+            <li><a href="wiki2.html">CSS</a></li>
+            <li><a href="wiki3.html">JavaScript</a></li>
+          </ul>
+        </nav>
+
+        <main>
+          <h1 id="oque">O que é o JavaScript?</h1>
+          <p>
+            <strong>JavaScript</strong> (frequentemente abreviado como
+            <b>JS</b>) é uma linguagem de programação interpretada estruturada,
+            de script em alto nível com tipagem dinâmica fraca e multiparadigma
+            (protótipos, orientado a objeto, imperativo e funcional). Juntamente
+            com HTML e CSS, o JavaScript é uma das três principais tecnologias
+            da World Wide Web. JavaScript permite páginas da Web interativas e,
+            portanto, é uma parte essencial dos aplicativos da web. A grande
+            maioria dos sites usa, e todos os principais navegadores têm um
+            mecanismo JavaScript dedicado para executá-lo.
+          </p>
+
+          <p>
+            É atualmente a principal linguagem para programação client-side em
+            navegadores web. É também bastante utilizada do lado do servidor
+            através de ambientes como o node.js.
+          </p>
+
+          <p>
+            É atualmente a principal linguagem para programação client-side em
+            navegadores web. É também bastante utilizada do lado do servidor
+            através de ambientes como o node.js.
+          </p>
+
+          <p>
+            Foi originalmente implementada como parte dos navegadores web para
+            que scripts pudessem ser executados do lado do cliente e
+            interagissem com o usuário sem a necessidade deste script passar
+            pelo servidor, controlando o navegador, realizando comunicação
+            assíncrona e alterando o conteúdo do documento exibido, porém os
+            mecanismos JavaScript agora estão incorporados em muitos outros
+            tipos de software host, incluindo em servidores e bancos de dados da
+            Web e em programas que não são da Web, como processadores de texto e
+            PDF, e em tempo de execução ambientes que disponibilizam JavaScript
+            para escrever aplicativos móveis e de desktop, incluindo widgets de
+            área de trabalho.
+          </p>
+
+          <p>
+            Os termos Vanilla JavaScript e Vanilla JS se referem ao JavaScript
+            não estendido por qualquer estrutura ou biblioteca adicional.
+            Scripts escritos em Vanilla JS são códigos JavaScript simples.
+          </p>
+
+          <p>
+            Embora existam semelhanças entre JavaScript e Java, incluindo o nome
+            da linguagem, a sintaxe e as respectivas bibliotecas padrão, as duas
+            linguagens são distintas e diferem muito no design; JavaScript foi
+            influenciado por linguagens de programação como Self e Scheme.
+          </p>
+
+          <p>
+            É baseada em ECMAScript, padronizada pela Ecma international nas
+            especificações ECMA-262[8] e ISO/IEC 16262.
+          </p>
+          <br />
+          <h1 id="uso">Uso em páginas Web</h1>
+          <p>
+            O uso primário de JavaScript é escrever funções que são embarcadas
+            ou incluídas em páginas HTML e que interagem com o Modelo de Objeto
+            de Documentos (DOM) da página. Alguns exemplos deste uso são:
+          </p>
+
+          <ul>
+            <li>
+              abrir uma nova janela (dialog) com controle programático sobre seu
+              tamanho, posição e atributos;
+            </li>
+            <li>
+              validar valores de um formulário para garantir que são aceitáveis
+              antes de serem enviados ao servidor;
+            </li>
+            <li>mudar imagens à medida que o mouse se movimenta sobre elas.</li>
+          </ul>
+
+          <p>
+            Um recurso de interface útil baseada em janela, é um tipo de janela
+            secundária da tela principal, ou janela principal, para solicitar ou
+            exibir ao usuário determinadas informações complementares,
+            semelhante a “caixa de diálogo” (dialog).
+          </p>
+
+          <p>
+            Existem dois tipos de associação entre uma janela de diálogo e a
+            janela principal à qual está associada: "forma modal"
+            (showModalDialog), quando a abertura da janela de diálogo flexível
+            sobreposta a janela principal sem a necessidade de recarregar a
+            página principal após o uso do modal, chamada de Lightbox,
+            bloqueando a interação com a janela principal e
+            esmaecendo/escurecendo o fundo até que o dialog seja encerrado; ou
+            "forma não modal", em que pode haver interação concomitante nas duas
+            janelas (principal e diálogo) sem bloqueio da principal, O caso mais
+            comum é do dialog modal.
+          </p>
+
+          <p>
+            Pelo fato do código JavaScript rodar localmente no navegador do
+            usuário, e não em um servidor remoto, o navegador pode responder a
+            tais ações rapidamente, fazendo uma aplicação mais responsiva. Além
+            disso, o código JavaScript pode detectar ações de usuário que o HTML
+            sozinho não pode, tais como teclas pressionadas individualmente.
+            Aplicações como Gmail tomam vantagem disso: muito da lógica da
+            interface do usuário é escrita em JavaScript, e o JavaScript envia
+            requisições de informação, tais como o conteúdo de um correio
+            eletrônico, para o servidor. A tendência mais ampla de programação
+            em Ajax explora de maneira similar este ponto forte. Uma JavaScript
+            engine (também conhecida como interpretador JavaScript ou uma
+            implementação JavaScript) interpreta código fonte JavaScript e o
+            executa de forma adequada. A primeira implementação JavaScript foi
+            criada por Brendan Eich na Netscape Communications Corporation, para
+            o Navegador Netscape. A implementação, nomeada SpiderMonkey, é
+            implementada em C e vem sendo atualizada para conformar com a edição
+            3 do ECMA-262. A implementação Rhino, criada primariamente por
+            Norris Boyd (ex-empregado da Netscape; agora no Google) é uma
+            implementação de JavaScript em Java. Rhino, como SpiderMonkey, é
+            conformante com a terceira edição do ECMA-262.
+          </p>
+          <p>
+            Por ser o JavaScript a única linguagem que a maioria dos navegadores
+            populares suportam, tem se tornado uma linguagem alvo para muitos
+            frameworks em outras linguagens, a despeito do fato de não ter sido
+            planejado para tal. Não obstante as limitações de desempenho
+            inerente à sua natureza dinâmica, a crescente velocidade das
+            implementações JavaScript tem feito da mesma uma prática linguagem
+            intermediária.
+          </p>
+
+          <h1 id="compativel">Compatibilidade</h1>
+          <p>
+            Já que JavaScript roda em ambientes variáveis, uma parte importante
+            do teste e depuração de seu código consiste na verificação de
+            compatibilidade entre navegadores.
+          </p>
+
+          <p>
+            As interfaces DOM para a manipulação de páginas web não são parte do
+            padrão ECMA, ou do próprio JavaScript. Oficialmente, são definidas
+            por um esforço de padronização da W3C; na prática, implementações de
+            navegadores diferem do padrão de uma para as outras, e nem todos
+            navegadores executam JavaScript.
+          </p>
+
+          <p>
+            Para lidar com essas diferenças, programadores JavaScript com
+            frequência tentam escrever códigos que conformam com o padrão comum
+            a maioria dos navegadores; não sendo possível isso, tentam escrever
+            de maneira ad-hoc um código que verifique a presença de certos
+            recursos e que se comporte de maneira adequada caso tais recursos
+            não estejam disponíveis. Em alguns casos, dois navegadores podem
+            ambos implementarem uma funcionalidade com comportamentos
+            diferentes, e programadores podem achar prático detectar qual
+            navegador está rodando e mudar o comportamento de seus scripts para
+            se adequar a isso. Programadores podem também usar bibliotecas ou
+            ferramentas que abstraem tais diferenças entre navegadores.
+          </p>
+
+          <p>
+            Além disso, scripts podem não funcionar para alguns usuários. Por
+            exemplo, um usuário pode:
+          </p>
+
+          <ul>
+            <li>
+              Usar um navegador antigo ou raro com suporte DOM incompleto ou
+              incomum.
+            </li>
+            <li>
+              Usar um navegador de um PDA ou telefone móvel que não está apto a
+              executar JavaScript.
+            </li>
+            <li>
+              Ter a execução do JavaScript desabilitada por normas de segurança.
+            </li>
+          </ul>
+
+          <p>
+            Para suportar tais usuários, programadores web tentam criar páginas
+            que sejam robustas a agentes que não suportem o JavaScript da
+            página. Em particular, uma página deve funcionar a despeito das
+            funcionalidades extras que um JavaScript provê. Uma abordagem
+            alternativa que muitos acham preferível é a página se desenvolvida
+            por primeiro a partir de tecnologias básicas que funcionem em todos
+            os navegadores, e então aprimorá-la para os usuários que possuam
+            JavaScript.
+          </p>
+
+          <h1 id="exemplo">Exemplo básico</h1>
+          <p>
+            Um exemplo minimalista de uma página conforme os padrões web
+            (utilizando a sintaxe HTML5) que contém
+            <strong>JavaScript</strong> pode ser representado pelo seguinte
+            código:
+          </p>
+          <pre><code>!DOCTYPE html>
+html lang="pt-BR">
+    head>
+        meta charset="UTF-8" />
+        title>Wikipédia/title>
+        script>
+            window.onload = function() {
+                document.getElementById("hello").addEventListener("click", function() {
+                    alert("Bem-vindo à Wikipédia!");
+                }, false);
+            };
+        /script>
+    /head>
+    body>
+        noscript>Seu navegador não suporta JavaScript ou ele está desabilitado./noscript>
+        button id="hello">Dizer "Olá"/button>
+    /body>
+/html>
+</code></pre>
+          <h1 id="introducao">Introdução</h1>
+          <iframe
+            width="100%"
+            height="400"
+            src="https://www.youtube.com/embed/BZuIEd1ghmg"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            style="margin-bottom: 20px"
+          ></iframe>
+        </main>
+
+        <section>
+          <h2>Neste Artigo</h2>
+          <ul>
+            <li><a href="#oque">O que é o JavaScript?</a></li>
+            <li><a href="#uso">Uso em páginas Web</a></li>
+            <li><a href="#compativel">Compatibilidade</a></li>
+            <li><a href="#exemplo">Exemplo básico</a></li>
+            <li><a href="#introducao">Introdução</a></li>
+          </ul>
+        </section>
+      </content>
+
+      <footer>
+        <small
+          >Esta página foi editada pela última vez às 23:32 de 13 de agosto de
+          2023. | Desenvolvido por Marlon</small
+        >
+        <div class="back">
+          <a href="#logo">Voltar ao topo</a>
+        </div>
+        <p>
+          Site inspirado no
+          <a
+            href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
+            >Wikipédia.</a
+          >
+        </p>
+        <small
+          >EasterEgg: aperte <kbd>Espaço</kbd> para trocar a cor da chuva
+          criptografada de fundo.</small
+        >
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Wikipédia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+
+    <div class="wrapper">
+      <header>
+        <img
+          id="logo"
+          alt="Bem vindo a nova wikipédia"
+          src="bemvindo.png"
+          width="100%"
+        />
+      </header>
+
+      <content>
+        <nav class="sidebar">
+          <h2>Programação</h2>
+          <ul>
+            <li><a href="wiki.html">HTML</a></li>
+            <li><a href="wiki2.html">CSS</a></li>
+            <li><a href="wiki3.html">JavaScript</a></li>
+          </ul>
+        </nav>
+
+        <main>
+          <h1 id="oque">O que é o HTML?</h1>
+          <p>
+            <b>HTML</b> (abreviação para a expressão inglesa
+            <b><i>HyperText Markup Language,</i></b> que significa:
+            <i>"Linguagem de Marcação de Hipertexto")</i> é uma linguagem de
+            marcação utilizada na construção de páginas na Web. Documentos HTML
+            podem ser interpretados por navegadores. A tecnologia é fruto da
+            junção entre os padrões HyTime e SGML.
+          </p>
+
+          <p>
+            HyTime é um padrão para a representação estruturada de hipermídia e
+            conteúdo baseado em tempo. Um documento é visto como um conjunto de
+            eventos concorrentes dependentes de tempo (como áudio, vídeo, etc.),
+            conectados por hiperligações (em inglês: <i>hyperlink</i> e
+            <i>link</i>). O padrão é independente de outros padrões de
+            processamento de texto em geral.
+          </p>
+
+          <p>
+            SGML é um padrão de formatação de textos. Não foi desenvolvido para
+            hipertexto, mas tornou-se conveniente para transformar documentos em
+            hiper-objetos e para descrever as ligações.
+          </p>
+          <br />
+          <h1 id="tags">Marcas <i>(Tags)</i></h1>
+          <p>
+            Todo documento HTML possui marcadores (do inglês: <i>tags</i>),
+            palavras entre parênteses angulares (chevron) (< e >); esses
+            marcadores são os comandos de formatação da linguagem. Um elemento é
+            formado por um nome de marcador (tag), atributos, valores e filhos
+            (que podem ser outros elementos ou texto). Os atributos modificam os
+            resultados padrões dos elementos e os valores caracterizam essa
+            mudança.
+          </p>
+
+          <p>
+            Os marcadores HTML não são sensíveis à caixa, portanto tanto faz
+            escrever <code>html, Html, HTml, htmL ou HTML</code>.
+          </p>
+
+          <p>
+            Os marcadores básicos de HTML, cuja presença é altamente recomendada
+            nas páginas são:
+          </p>
+
+          <p>
+            <code>html</code>: define o início de um documento HTML e indica ao
+            navegador que todo conteúdo posterior deve ser tratado como uma
+            série de códigos HTML
+          </p>
+          <p>
+            <code>head</code>: define o cabeçalho de um documento HTML, que traz
+            informações sobre o documento que está sendo aberto
+          </p>
+          <p>
+            <code>body</code>: define o conteúdo principal, o corpo do
+            documento. Esta é a parte do documento HTML que é exibida no
+            navegador. No corpo podem-se definir atributos comuns a toda a
+            página, como cor de fundo, margens, e outras formatações.
+          </p>
+
+          <h1 id="edicao">Edição de documentos HTML</h1>
+          <p>
+            Os documentos em HTML são arquivos de texto simples que podem ser
+            criados e editados em qualquer editor de textos comum, como o Bloco
+            de Notas do Windows, ou o TextEdit, do Macintosh. Para facilitar a
+            produção de documentos, no mercado existem editores HTML
+            específicos, com recursos sofisticados, que facilitam a realização
+            de tarefas repetitivas, inserção de objetos, elaboração de tabelas e
+            outros recursos (Ver lista abaixo). Basicamente dividem-se em dois
+            tipos:
+          </p>
+
+          <p>
+            Editores de texto fonte: inserem automaticamente os marcadores,
+            orientando a inserção de atributos e marcações.
+          </p>
+
+          <p>
+            Editores WYSIWYG: oferecem ambiente de edição com um "esboço"
+            resultado final das marcações.
+          </p>
+
+          <h1 id="estrutura">Estrutura básica de um documento</h1>
+          <p>
+            A estrutura básica de um documento
+            <strong
+              >HTML (Hyper Text Markup Language - Linguagem de Marcação de
+              Hypertexto)</strong
+            >, apresenta as seguintes marcações:
+          </p>
+          <pre><code>!DOCTYPE html>
+html lang="pt">
+    head>
+        meta charset="UTF-8" />
+        title>Título do Documento/title>
+    /head>
+    body>
+        <!-- Aqui fica a página que será visível para todos, onde pode-se inserir
+        textos, imagens, links para outras páginas, etc, geralmente usa-se: -->
+
+        div>
+            Tag para criar um bloco, mais utilizado com CSS
+        /div>
+
+        span>Tag para modificação de uma parte do texto da página/span>
+
+        img src="imagem.jpg" />
+
+        a href="https://www.wikipedia.org">Wikipédia, A Enciclopédia Livre/a>
+    /body>
+/html></code></pre>
+
+          <h1 id="introducao">Introdução</h1>
+          <iframe
+            width="100%"
+            height="400"
+            src="https://www.youtube.com/embed/o0UZNUuFsvA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            style="margin-bottom: 20px"
+          ></iframe>
+        </main>
+
+        <section>
+          <h2>Neste Artigo</h2>
+          <ul>
+            <li><a href="#oque">O que é o HTML?</a></li>
+            <li><a href="#tags">Marcas (Tags)</a></li>
+            <li><a href="#edicao">Edição de documentos HTML</a></li>
+            <li><a href="#estrutura">Estrutura básica de um documento</a></li>
+            <li><a href="#introducao">Introdução</a></li>
+          </ul>
+        </section>
+      </content>
+
+      <footer>
+        <small
+          >Esta página foi editada pela última vez às 23:32 de 13 de agosto de
+          2023. | Desenvolvido por Marlon</small
+        >
+        <div class="back">
+          <a href="#logo">Voltar ao topo</a>
+        </div>
+        <p>
+          Site inspirado no
+          <a
+            href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"
+            >Wikipédia.</a
+          >
+        </p>
+        <small
+          >EasterEgg: aperte <kbd>Espaço</kbd> para trocar a cor da chuva
+          criptografada de fundo.</small
+        >
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
